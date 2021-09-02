@@ -7,12 +7,13 @@ import {store} from './src/store';
 
 const App = () => {
   StatusBar.setHidden(true);
+
   return (
-    <Provider store={store}>
-      <SafeAreaProvider>
+    <SafeAreaProvider>
+      <Provider store={store}>
         <AppNavigation />
-      </SafeAreaProvider>
-    </Provider>
+      </Provider>
+    </SafeAreaProvider>
   );
 };
 

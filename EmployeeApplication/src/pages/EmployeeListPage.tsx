@@ -130,6 +130,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 16,
     height: 42,
     width: '100%',
+    justifyContent: 'center',
   },
   headerTextStyle: {
     fontSize: 32,
