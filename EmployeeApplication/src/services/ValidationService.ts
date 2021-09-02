@@ -10,9 +10,7 @@ const validate = (data: any): any => {
       } else if (item[1].value !== item[1].checkValue) {
         error = {
           ...error,
-          [item[0]]: item[1].error
-            ? item[1].error
-            : 'Please enter correct input',
+          [item[0]]: item[1].error ? item[1].error : 'Please enter valid input',
         };
       }
     }

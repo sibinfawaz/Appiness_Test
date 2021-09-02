@@ -15,7 +15,7 @@ const LoadingPage = ({navigation}: any) => {
     setTimeout(() => {
       dispatch(addLogin(loginCredentials.login));
       dispatch(addEmployee(employeeList.user));
-      navigation.navigate('LoginPage');
+      navigation.navigate('EmployeeListPage');
     }, 3000);
   }, []);
   return (

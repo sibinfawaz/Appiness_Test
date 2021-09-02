@@ -75,13 +75,13 @@ const LoginPage = ({navigation}: any) => {
         type: 'required',
         value: userName,
         checkValue: loginCred.username,
-        error: 'Please enter correct email',
+        error: 'Please enter valid email',
       },
       password: {
         type: 'required',
         value: password,
         checkValue: loginCred.password,
-        error: 'Please enter correct password',
+        error: 'Please enter valid password',
       },
     };
     setValidationLoginError(validate(validateData));
@@ -119,7 +119,7 @@ const LoginPage = ({navigation}: any) => {
           <LinearGradient
             colors={[colors.gradientStart, colors.gradientEnd]}
             style={styles.loginButton}>
-            <Text> Login</Text>
+            <Text style={styles.textStyle}> Login</Text>
           </LinearGradient>
         </TouchableOpacity>
       </View>
@@ -151,6 +151,11 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     height: 44,
     borderRadius: 4,
+  },
+  textStyle: {
+    fontSize: 16,
+    fontWeight: '900',
+    color: colors.white,
   },
 });
 export default LoginPage;

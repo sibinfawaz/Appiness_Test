@@ -1,10 +1,10 @@
 import {createSlice, PayloadAction} from '@reduxjs/toolkit';
 
-type loginState = {
+type employeeState = {
   value: any;
 };
 
-const initialState: loginState = {
+const initialState: employeeState = {
   value: [],
 };
 

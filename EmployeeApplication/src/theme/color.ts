@@ -8,6 +8,7 @@ const colors = {
   inputBorder: '#D6D7DC',
   inputWarning: '#D7ACAC',
   primaryText: '#252D48',
+  searchPlaceholder: '#dedede',
 };
 
 export default colors;

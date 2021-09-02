@@ -18,7 +18,6 @@ type LabelInputProps = {
   errMsg: any;
   keyBoardType?: any;
   onChangeVal?: (val: string) => void;
-  onFocus?: any;
 };
 
 function LabelInput(props: LabelInputProps) {

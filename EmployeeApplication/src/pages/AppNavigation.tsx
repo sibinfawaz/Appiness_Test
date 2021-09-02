@@ -4,6 +4,7 @@ import {createStackNavigator} from '@react-navigation/stack';
 import LoadingPage from './LoadingPage';
 import EmployeeListPage from './EmployeeListPage';
 import LoginPage from './LoginPage';
+import EmployeeProfilePage from './EmployeeProfilePage';
 
 const Stack = createStackNavigator();
 
@@ -19,6 +20,10 @@ function AppNavigation(): JSX.Element {
         <Stack.Screen name="LoadingPage" component={LoadingPage} />
         <Stack.Screen name="EmployeeListPage" component={EmployeeListPage} />
         <Stack.Screen name="LoginPage" component={LoginPage} />
+        <Stack.Screen
+          name="EmployeeProfilePage"
+          component={EmployeeProfilePage}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );
