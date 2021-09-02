@@ -44,7 +44,7 @@ you can run the application in development state by running:
 
 ## Third party packages used
 
--@reduxjs/toolkit
--react-redux
--react-native-linear-gradient
--react-native-communications
+- `@reduxjs/toolkit`
+- `react-redux`
+- `react-native-linear-gradient`
+- `react-native-communications`
